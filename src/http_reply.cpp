@@ -20,7 +20,7 @@ namespace status_strings
 {
 
 const std::string switching_protocols =
-  "HTTP/1.0 101 Switching Protocols\r\n";
+  "HTTP/1.1 101 Switching Protocols\r\n";
 const std::string ok =
   "HTTP/1.0 200 OK\r\n";
 const std::string created =
